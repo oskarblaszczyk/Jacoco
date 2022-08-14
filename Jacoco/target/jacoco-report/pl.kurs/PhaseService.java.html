@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PhaseService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Jacoco</a> &gt; <a href="index.source.html" class="el_package">pl.kurs</a> &gt; <span class="el_source">PhaseService.java</span></div><h1>PhaseService.java</h1><pre class="source lang-java linenums">package pl.kurs;
+
+<span class="fc" id="L3">public class PhaseService {</span>
+    // napisz metode która porownuje dwa stringi pod wzgledem dlugosci
+    // sa 4 opcje:
+    // 1 jest dluzszy, 2 jest dluzszy, sa takie same ale dluzsze niz 5, sa takie same
+
+    public String compareTwoStrings(String word1, String word2) {
+<span class="fc bfc" id="L9" title="All 2 branches covered.">        if (word1.length() &gt; word2.length()) {</span>
+<span class="fc" id="L10">            return &quot;Word1 is longer&quot;;</span>
+<span class="fc bfc" id="L11" title="All 2 branches covered.">        } else if (word2.length() &gt; word1.length()) {</span>
+<span class="fc" id="L12">            return &quot;Word2 is longer&quot;;</span>
+        } else {
+<span class="fc bfc" id="L14" title="All 2 branches covered.">            if (word1.length() &gt; 5) {</span>
+<span class="fc" id="L15">                return &quot;Is same but longer than 5&quot;;</span>
+            }
+        }
+<span class="fc" id="L18">        return &quot;Is the same&quot;;</span>
+    }
+
+}
+
+
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

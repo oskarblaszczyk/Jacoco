@@ -1,0 +1,11 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Jacoco,pl.kurs,PhaseService,0,25,0,6,0,8,0,5,0,2
+Jacoco,pl.task1.exceptions,BadDrugQualityException,0,3,0,0,0,2,0,1,0,1
+Jacoco,pl.task1.exceptions,TheKidIsAlreadyDeadException,0,3,0,0,0,2,0,1,0,1
+Jacoco,pl.task1.services,DrugDeceptionService,0,12,0,0,0,5,0,2,0,2
+Jacoco,pl.task1.model,Mdma,0,9,0,0,0,3,0,1,0,1
+Jacoco,pl.task1.model,Ingredients,0,39,0,0,0,2,0,1,0,1
+Jacoco,pl.task1.model,Kid,0,46,0,4,0,14,0,5,0,3
+Jacoco,pl.task1.model,Mefedron,0,9,0,0,0,3,0,1,0,1
+Jacoco,pl.task1.model,Drug,0,47,0,2,0,15,0,6,0,5
+Jacoco,pl.task1.model,Lsd,0,9,0,0,0,3,0,1,0,1
